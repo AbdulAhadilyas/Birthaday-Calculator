@@ -8,7 +8,7 @@ function ageCalculater() {
     return false;
   }
 
-  y1 = currentDate.getFullYear();
+  y1 = currentDate.getFullYear() - 1;
   m1 = 1 + currentDate.getMonth();
 
   y2 = userDate.getFullYear();
